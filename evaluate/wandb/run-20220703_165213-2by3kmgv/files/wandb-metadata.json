@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-03T14:52:14.460654",
+    "startedAt": "2022-07-03T14:52:13.347878",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "model_export:latest",
+        "--test_data",
+        "data_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "run.py",
+    "host": "pc-domenico",
+    "username": "coding",
+    "executable": "/home/coding/anaconda3/envs/mlflow-6093bab740dbe0fe9d8101bc469815444b6654e4/bin/python"
+}

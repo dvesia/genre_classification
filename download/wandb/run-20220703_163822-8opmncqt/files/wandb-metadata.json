@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-03T14:38:23.022979",
+    "startedAt": "2022-07-03T14:38:22.061067",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/home/coding/Scrivania/MLOps-Udacity/chapter2/my_exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/download/download_data.py",
+    "codePath": "download_data.py",
+    "host": "pc-domenico",
+    "username": "coding",
+    "executable": "/home/coding/anaconda3/envs/mlflow-029b847b797538bf305204238741d4347f5e47c3/bin/python"
+}

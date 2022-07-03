@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-03T14:41:33.925224",
+    "startedAt": "2022-07-03T14:41:32.910349",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "domenico-vesia/exercise_14/raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Data with preprocessing applied"
+    ],
+    "state": "running",
+    "program": "/home/coding/Scrivania/MLOps-Udacity/chapter2/my_exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/preprocess/run.py",
+    "codePath": "run.py",
+    "host": "pc-domenico",
+    "username": "coding",
+    "executable": "/home/coding/anaconda3/envs/mlflow-af54f7ce03fec08a6658f655b45e530e2a3b59b0/bin/python"
+}

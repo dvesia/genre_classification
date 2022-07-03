@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-03T14:43:29.184305",
+    "startedAt": "2022-07-03T14:43:27.969650",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "domenico-vesia/exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/home/coding/anaconda3/envs/mlflow-8e76858e4a2db0919e08db6b1fb679975d882e04/bin/pytest",
+    "host": "pc-domenico",
+    "username": "coding",
+    "executable": "/home/coding/anaconda3/envs/mlflow-8e76858e4a2db0919e08db6b1fb679975d882e04/bin/python"
+}

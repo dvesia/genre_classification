@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-03T07:30:13.251912",
+    "startedAt": "2022-07-03T07:30:09.067445",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/home/coding/Scrivania/MLOps-Udacity/chapter2/my_exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/segregate/run.py",
+    "codePath": "run.py",
+    "host": "pc-domenico",
+    "username": "coding",
+    "executable": "/home/coding/anaconda3/envs/mlflow-92cf12d04b7e41650e828b2d6646ca1a486815e4/bin/python"
+}
